@@ -51,7 +51,10 @@ const Benefits: React.FC = () => {
                     <div className="w-full text-center">
                         {/* Title - mobile: 2 baris, desktop: 1 baris */}
                         <h3 className="text-2xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-foreground leading-tight sm:leading-none tracking-tighter lg:whitespace-nowrap">
-                            The Core Pillars of Cognitive Intelligence Security
+                            The Core Pillars of   
+                        </h3>
+                        <h3 className="text-2xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-foreground leading-tight sm:leading-none tracking-tighter lg:whitespace-nowrap">
+                            Cognitive Intelligence Security
                         </h3>
 
                         {/* Description - mobile: max-w-[280px], desktop: lebih lebar */}
