@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
 
   server: {
-    allowedHosts: ['ainotes.cognir.ai'],
+    allowedHosts: ['cogint.cognir.ai'],
     proxy: {
       '/api': {
         target: 'http://localhost:3001',
@@ -16,6 +16,6 @@ export default defineConfig({
   },
 
   preview: {
-    allowedHosts: ['ainotes.cognir.ai']
+    allowedHosts: ['cogint.cognir.ai']
   }
 })
