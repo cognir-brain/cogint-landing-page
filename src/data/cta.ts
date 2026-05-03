@@ -1,14 +1,14 @@
 export const ctaDetails = {
-    heading: 'Mulai Lindungi Infrastruktur Anda Hari Ini',
-    description: 'Jadwalkan sesi demo 30 menit atau dapatkan threat assessment gratis untuk jaringan Anda – tanpa komitmen, tanpa biaya tersembunyi.',
+    heading: "Your Infrastructure Won't Protect Itself. We Will.",
+    description: 'Schedule a 30-minute live demo or get a free threat assessment for your network, no commitment, no hidden fees, no fine print.',
     buttons: [
         { text: 'Request Demo', primary: true },        // ← HAPUS TANDA →
         { text: 'Get Threat Assessment', primary: false },
         { text: 'Talk to an Expert', primary: false }
     ],
     checklists: [
-        'Setup dalam 24 jam',
-        'Tanpa kontrak panjang',
+        'Deployed in under 24 hours ',
+        'No long-term contracts',
         'SOC 2 Certified'
     ]
 }

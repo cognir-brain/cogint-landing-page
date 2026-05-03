@@ -2,25 +2,26 @@ import { FiAlertTriangle, FiBell, FiCpu } from "react-icons/fi";
 
 export const threatsData = [
     {
-        title: "Keamanan Tradisional\nTidak Lagi Cukup?",
-        description: "Serangan siber saat ini berkembang lebih cepat daripada kemampuan manusia untuk bereaksi. Sistem berbasis aturan (rule-based) telah usang menghadapi ancaman yang digerakkan oleh AI.",
+        title: "When Threats Evolve,\nConventional Security Falls Behind.",
+        description: "Modern cyber attacks move faster than human response. Rule-based approaches are no longer relevant against AI-driven threats, and every second of delay is a gap waiting to be exploited.",
         bullets: [
             {
                 title: "Zero-Day Vulnerability",
-                description: "Eksploitasi yang tidak memiliki tanda tangan digital sebelumnya, mem-bypass antivirus standar.",
+                description: "Exploits with no prior digital signature, undetected by conventional antivirus, with no time left to react.",
                 icon: <FiAlertTriangle size={26} />
             },
             {
                 title: "Alert Fatigue",
-                description: "Tim SOC kewalahan dengan ribuan notifikasi setiap hari, membuat ancaman nyata terabaikan.",
+                description: "SOC teams are buried under thousands of daily notifications. Critical threats slip through, not because they go undetected, but because they never get the attention they deserve.",
                 icon: <FiBell size={26} />
             },
             {
                 title: "AI-Powered Attacks",
-                description: "Penyerang menggunakan AI untuk mengotomatisasi pengintaian dan eksploitasi data secara masif.",
+                description: "Adversaries now leverage AI to map vulnerabilities, automate exploitation, and strike at massive scale, relentlessly, and without human error",
                 icon: <FiCpu size={26} />
             }
         ],
+        closing: "This is why COGINT exists, not just to detect threats, but to understand and stop them before they happen.",
         imageSrc: "/images/threat-detected.webp"
     }
 ]

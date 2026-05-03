@@ -57,7 +57,7 @@ const ComplianceSlider: React.FC = () => {
             ============================================ */}
             <div className="text-center mb-4 sm:mb-4 px-5">
                 <h2 className="text-xs sm:text-lg md:text-xl font-bold text-foreground tracking-wide">
-                    STANDAR & KEPATUHAN YANG DIDUKUNG
+                    COMPLIANT BY DESIGN, SECURE BY STANDARD
                 </h2>
             </div>
 

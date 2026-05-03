@@ -1,13 +1,13 @@
 // src/data/stats.ts
 export const statsDetails = {
-    heading: 'Efisiensi yang Terukur',
-    subheading: 'Hasil nyata dari ribuan implementasi di seluruh dunia. Keamanan bukan lagi pusat biaya, melainkan keunggulan operasional.',
+    heading: 'Real Impact, Measurable Results.',
+    subheading: 'Validated across thousands of deployments worldwide, COGINT redefines security as an operational advantage, not an operational expense.',
     stats: [
-        { value: 99, label: 'RESPON LEBIH CEPAT' },
-        { value: 75, label: 'PENGURANGAN BEBAN SOC' }
+        { value: 99, label: 'FASTER RESPONSE' },
+        { value: 75, label: 'REDUCTION IN SOC BURDEN' }
     ],
     comparison: {
-        before: { label: 'SEBELUM CYBERGUARD', unit: 'Jam/Hari', value: 100, color: 'red' },
-        after: { label: 'SESUDAH CYBERGUARD', unit: 'Milidetik', value: 5, color: 'cyan' }
+        before: { label: 'BEFORE CYBERGUARD', unit: 'Hours/Day', value: 100, color: 'red' },
+        after: { label: 'AFTER CYBERGUARD', unit: 'Milliseconds', value: 5, color: 'cyan' }
     }
 }

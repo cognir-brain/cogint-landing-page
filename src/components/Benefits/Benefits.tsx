@@ -51,12 +51,12 @@ const Benefits: React.FC = () => {
                     <div className="w-full text-center">
                         {/* Title - mobile: 2 baris, desktop: 1 baris */}
                         <h3 className="text-2xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-foreground leading-tight sm:leading-none tracking-tighter lg:whitespace-nowrap">
-                            Pilar Utama Pertahanan Otonom
+                            The Core Pillars of Cognitive Intelligence Security
                         </h3>
 
                         {/* Description - mobile: max-w-[280px], desktop: lebih lebar */}
                         <p className="mt-3 mx-auto leading-relaxed text-foreground-accent text-[11px] sm:text-base max-w-[280px] lg:max-w-3xl">
-                            Dirancang untuk melampaui kapabilitas deteksi standar dengan kecerdasan buatan yang aktif.
+                            Engineered to go beyond standard detection and powered by active artificial intelligence that thinks, learns, and acts.
                         </p>
 
                         {/* 3 Column Grid - mobile: max-w-[280px], desktop: full */}

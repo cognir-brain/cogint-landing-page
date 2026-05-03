@@ -122,7 +122,7 @@ const Stats: React.FC = () => {
                                 {progress.faster}%
                             </motion.div>
                             <p className="text-[9px] sm:text-sm text-gray-300 mt-1 leading-tight">
-                                RESPON LEBIH CEPAT
+                                FASTER RESPONSE
                             </p>
                         </div>
 
@@ -136,7 +136,7 @@ const Stats: React.FC = () => {
                                 {progress.reduction}%
                             </motion.div>
                             <p className="text-[9px] sm:text-sm text-gray-300 mt-1 leading-tight">
-                                PENGURANGAN BEBAN SOC
+                                REDUCTION IN SOC BURDEN
                             </p>
                         </div>
                     </div>
@@ -146,8 +146,8 @@ const Stats: React.FC = () => {
                         <div className="flex flex-col gap-2 sm:gap-4">
                             <div className="text-left">
                                 <div className="flex justify-between mb-0.5">
-                                    <span className="text-[8px] sm:text-xs text-gray-400">SEBELUM CYBERGUARD</span>
-                                    <span className="text-[8px] sm:text-xs text-gray-400">Jam/Hari</span>
+                                    <span className="text-[8px] sm:text-xs text-gray-400">BEFORE COGINT</span>
+                                    <span className="text-[8px] sm:text-xs text-gray-400">Hours/Day</span>
                                 </div>
                                 <div className="w-full bg-gray-700 rounded-full h-1.5 sm:h-3">
                                     <motion.div 
@@ -162,8 +162,8 @@ const Stats: React.FC = () => {
 
                             <div className="text-left">
                                 <div className="flex justify-between mb-0.5">
-                                    <span className="text-[8px] sm:text-xs text-cyan-400">SESUDAH CYBERGUARD</span>
-                                    <span className="text-[8px] sm:text-xs text-cyan-400">Milidetik</span>
+                                    <span className="text-[8px] sm:text-xs text-cyan-400">AFTER COGINT</span>
+                                    <span className="text-[8px] sm:text-xs text-cyan-400">Milliseconds</span>
                                 </div>
                                 <div className="w-full bg-gray-700 rounded-full h-1.5 sm:h-3">
                                     <motion.div 
