@@ -1,21 +1,8 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
 
+// Allow preview requests from the deployment domain
 export default defineConfig({
-  plugins: [react()],
-
-  server: {
-    allowedHosts: ['cogint.cognir.ai'],
-    proxy: {
-      '/api': {
-        target: 'http://localhost:3001',
-        changeOrigin: true,
-        secure: false
-      }
-    }
-  },
-
   preview: {
-    allowedHosts: ['cogint.cognir.ai']
-  }
+    allowedHosts: ['cogint.cognir.ai'],
+  },
 })
