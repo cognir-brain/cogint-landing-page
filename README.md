@@ -1,6 +1,6 @@
-# Cognir AI - Threat Intelligence Landing Page
+# Cognir AI - COGINT Landing Page
 
-Cognir AI adalah landing page modern untuk platform keamanan siber yang menggabungkan adaptive AI dengan autonomous response untuk mendeteksi dan merespon ancaman secara real-time.
+COGINT adalah landing page modern untuk platform keamanan siber yang menggabungkan adaptive AI dengan autonomous response untuk mendeteksi dan merespon ancaman secara real-time.
 
 ---
 
