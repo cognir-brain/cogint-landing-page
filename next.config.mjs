@@ -4,6 +4,25 @@ const nextConfig = {
 	env: {
 		SITE_URL: 'https://cogint.cognir.ai',
 	},
+	// Allow custom domain in dev server
+	onDemandEntries: {
+		maxInactiveAge: 60 * 1000,
+		pagesBufferLength: 5,
+	},
+	// Allow hostname in headers
+	async headers() {
+		return [
+			{
+				source: '/:path*',
+				headers: [
+					{
+						key: 'Access-Control-Allow-Origin',
+						value: '*',
+					},
+				],
+			},
+		];
+	},
 };
 
 export default nextConfig;

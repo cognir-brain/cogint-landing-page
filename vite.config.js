@@ -1,7 +1,9 @@
 import { defineConfig } from 'vite'
 
-// Allow preview requests from the deployment domain
 export default defineConfig({
+  server: {
+    allowedHosts: ['cogint.cognir.ai'],
+  },
   preview: {
     allowedHosts: ['cogint.cognir.ai'],
   },
