@@ -58,26 +58,28 @@ const Threats: React.FC = () => {
                             variants={childVariants}
                         >
                             {/* Title */}
-                            <h3 className="text-2xl sm:text-4xl md:text-6xl font-bold text-foreground leading-tight sm:leading-none tracking-tighter whitespace-pre-line">
+                            <h3 className="text-2xl sm:text-4xl md:text-6xl font-bold text-foreground leading-tight sm:leading-none tracking-tighter whitespace-pre-line max-w-[320px] sm:max-w-[450px] md:max-w-[600px] lg:max-w-none mx-auto lg:mx-0">
                                 {threat.title}
                             </h3>
 
-                            {/* Description - lebar seperti hero mobile */}
-                            <p className="mt-1.5 mx-auto lg:ml-0 leading-normal text-foreground-accent text-[11px] sm:text-base w-full max-w-[280px] lg:max-w-none">
+                            {/* Description */}
+                            <p className="mt-1.5 mx-auto lg:ml-0 leading-normal text-foreground-accent text-[11px] sm:text-base w-full max-w-[280px] sm:max-w-[400px] md:max-w-[500px] lg:max-w-none mb-4">
                                 {threat.description}
                             </p>
                         </motion.div>
 
-                        {/* Bullets - lebar mengikuti hero mobile */}
-                        <div className="mx-auto lg:ml-0 w-full max-w-[280px] lg:max-w-none">
-                            {threat.bullets.map((item, index) => (
-                                <ThreatBullet 
-                                    key={index} 
-                                    title={item.title} 
-                                    icon={item.icon} 
-                                    description={item.description} 
-                                />
-                            ))}
+                        {/* Bullets */}
+                        <div className="mx-auto lg:ml-0 w-full max-w-[280px] sm:max-w-[400px] md:max-w-[700px] lg:max-w-none">
+                            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-1 gap-3 md:gap-4">
+                                {threat.bullets.map((item, index) => (
+                                    <ThreatBullet 
+                                        key={index} 
+                                        title={item.title} 
+                                        icon={item.icon} 
+                                        description={item.description} 
+                                    />
+                                ))}
+                            </div>
                         </div>
                     </div>
                 </div>
