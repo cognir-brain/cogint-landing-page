@@ -59,7 +59,7 @@ const Benefits: React.FC = () => {
 
                         {/* Description - mobile: max-w-[280px], desktop: lebih lebar */}
                         <p className="mt-3 mx-auto leading-relaxed text-foreground-accent text-[11px] sm:text-base max-w-[280px] lg:max-w-3xl">
-                            Engineered to go beyond standard detection and powered by active artificial intelligence that thinks, learns, and acts.
+                            Engineered to go beyond standard threat detection, powered by active artificial intelligence that thinks, learns, and neutralizes manipulation.
                         </p>
 
                         {/* 3 Column Grid - mobile: max-w-[280px], desktop: full */}

@@ -15,12 +15,12 @@ interface ComplianceItem {
 
 const complianceItems: ComplianceItem[] = [
     { name: 'ISO 27001', logo: 'ISO' },
-    { name: 'NIST CSF', logo: 'NIST' },
+    { name: 'NIST AI RMF', logo: 'NIST' },
     { name: 'OWASP', logo: 'OWASP' },
     { name: 'SOC 2 Type II', logo: 'SOC' },
     { name: 'GDPR Compliant', logo: 'GDPR' },
-    { name: 'PCI DSS', logo: 'PCI' },
-    { name: 'MITRE ATT&CK', logo: 'MITRE' },
+    { name: 'OWASP Top 10 for LLM/AI', logo: 'OWASP' },
+    { name: 'MITRE DISARM', logo: 'MITRE' },
 ];
 
 // ============================================

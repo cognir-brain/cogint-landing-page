@@ -7,7 +7,7 @@ export const footerDetails: {
     telephone: string;
     socials: ISocials;
 } = {
-    subheading: "COGINT combines adaptive AI with autonomous response to detect and respond to threats in real time. It continuously learns to deliver proactive, up-to-date protection.",
+    subheading: "COGINT combines adaptive cognitive AI with autonomous analysis to detect and neutralize manipulative narratives in real-time. It continuously learns context to deliver proactive protection against cognitive warfare.",
     quickLinks: [
         {
             text: "Platform",

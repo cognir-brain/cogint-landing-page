@@ -1,7 +1,7 @@
 // src/data/stats.ts
 export const statsDetails = {
     heading: 'Real Impact, Measurable Results.',
-    subheading: 'Validated across thousands of deployments worldwide, COGINT redefines security as an operational advantage, not an operational expense.',
+    subheading: 'Validated across global intelligence deployments, COGINT redefines cognitive defense as a strategic advantage, protecting your brand&apos;s integrity before the damage is done.',
     stats: [
         { value: 99, label: 'FASTER RESPONSE' },
         { value: 75, label: 'REDUCTION IN SOC BURDEN' }

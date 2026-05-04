@@ -128,7 +128,7 @@ const ThreatDetector: React.FC = () => {
                         className="w-full bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-bold py-3 px-4 rounded-xl transition-all duration-300 flex items-center justify-center gap-2"
                     >
                         <FiAlertTriangle className="w-5 h-5" />
-                        <span>THREAT DETECTED</span>
+                        <span>MANIPULATION DETECTED</span>
                     </motion.button>
                 </div>
             </div>

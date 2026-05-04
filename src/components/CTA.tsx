@@ -28,7 +28,7 @@ const CTA: React.FC = () => {
                     transition={{ duration: 0.5 }}
                     className="text-2xl sm:text-4xl md:text-6xl font-bold text-foreground leading-tight sm:leading-none tracking-tighter"
                 >
-                    <span className="block sm:inline">Your Infrastructure Won&apos;t</span>
+                    <span className="block sm:inline">Your Narrative Won&apos;t</span>
                     <span className="block sm:inline"> Protect Itself, We Will.</span>
                 </motion.h2>
 

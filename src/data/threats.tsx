@@ -2,26 +2,25 @@ import { FiAlertTriangle, FiBell, FiCpu } from "react-icons/fi";
 
 export const threatsData = [
     {
-        title: "When Threats Evolve,\nConventional Security Falls Behind.",
-        description: "Modern cyber attacks move faster than human response. Rule-based approaches are no longer relevant against AI-driven threats, and every second of delay is a gap waiting to be exploited.",
+        title: "When Cognitive Threats Evolve, Conventional Defenses Fall Behind.",
+        description: "Modern information attacks move faster than human analysis. Rule-based approaches and manual fact-checking are no longer relevant against AI-driven disinformation, and every second of delay allows a false narrative to take root.",
         bullets: [
             {
-                title: "Zero-Day Vulnerability",
-                description: "Exploits with no prior digital signature, undetected by conventional antivirus, with no time left to react.",
+                title: "Zero-Day Disinformation",
+                description: "AI-generated narratives and deepfakes emerge without prior digital footprints, slipping past standard keyword monitors with no time left to react before they go viral.",
                 icon: <FiAlertTriangle size={26} />
             },
             {
-                title: "Alert Fatigue",
-                description: "SOC teams are buried under thousands of daily notifications. Critical threats slip through, not because they go undetected, but because they never get the attention they deserve.",
+                title: "Analyst Fatigue",
+                description: "Intelligence teams are buried under millions of daily social signals and data points. Critical manipulative campaigns slip through, not because they are invisible, but because they drown in the noise.",
                 icon: <FiBell size={26} />
             },
             {
-                title: "AI-Powered Attacks",
-                description: "Adversaries now leverage AI to map vulnerabilities, automate exploitation, and strike at massive scale, relentlessly, and without human error",
+                title: "AI-Powered Manipulation",
+                description: "Adversaries now leverage Generative AI to craft hyper-realistic hoaxes, automate bot networks, and spread weaponized narratives at massive scale, relentlessly. To fight this AI-driven warfare, an equally intelligent AI defense is required.",
                 icon: <FiCpu size={26} />
             }
         ],
-        closing: "This is why COGINT exists, not just to detect threats, but to understand and stop them before they happen.",
         imageSrc: "/images/threat-detected.webp"
     }
 ]
